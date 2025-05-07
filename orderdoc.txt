@@ -1,0 +1,24 @@
+📦 proyecto-vuejs-frontend
+ ┣ 📂 public
+ ┃ ┗ 📜 index.html
+ ┣ 📂 src
+ ┃ ┣ 📂 assets → Archivos estáticos (imágenes, fuentes, estilos globales)
+ ┃ ┣ 📂 components → Componentes reutilizables
+ ┃ ┃ ┗ 📜 Button.vue, Card.vue, etc.
+ ┃ ┣ 📂 views → Vistas principales (páginas)
+ ┃ ┃ ┗ 📜 Home.vue, Dashboard.vue, etc.
+ ┃ ┣ 📂 router → Configuración de Vue Router
+ ┃ ┃ ┗ 📜 index.js
+ ┃ ┣ 📂 store → Gestión de estado (Pinia o Vuex)
+ ┃ ┃ ┗ 📜 index.js
+ ┃ ┣ 📂 services → Llamadas a APIs externas
+ ┃ ┃ ┗ 📜 api.js
+ ┃ ┣ 📂 composables → Funciones reutilizables con Composition API
+ ┃ ┃ ┗ 📜 useAuth.js, useFetch.js
+ ┃ ┣ 📂 utils → Funciones auxiliares
+ ┃ ┃ ┗ 📜 helpers.js, constants.js
+ ┃ ┣ 📜 main.js → Punto de entrada de la aplicación
+ ┃ ┣ 📜 App.vue → Componente raíz
+ ┣ 📜 package.json → Dependencias y scripts
+ ┣ 📜 vite.config.js → Configuración de Vite
+ ┣ 📜 .gitignore → Archivos ignorados por Git
